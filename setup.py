@@ -40,13 +40,15 @@ except FileNotFoundError:
 
 # TODO: Update these values according to the name of the module.
 setup(
-    name="VasculitisTCR",
-    version=read_version("VasculitisTCR/__init__.py"),  # single place for version
-    description="Package for Analysis of GCA Vasculitis TCR data.",
+    name="detectTCRs",
+    version=read_version("detectTCRs/__init__.py"),  # single place for version
+    description="Package for identification and analysis of TCR sequences associated with a disease.",
     long_description=open("README.md").read(),
-    url="https://github.com/annaweber209/KNN_classification_of_T_cell_receptor_sequences_associated_with_giant_cell_arteritis",
+    url="https://github.com/mlzski/identification-of-TCR-sequences-in-GCA",
     author="Anna Weber",
     author_email="a92.weber@t-online.de",
+    maintainer="Michal Zulcinski",
+    maintainer_email="m.zulcinski@leeds.ac.uk",
     # the following exclusion is to prevent shipping of tests.
     # if you do include them, add pytest to the required packages.
     packages=find_packages(".", exclude=["*tests*"]),
