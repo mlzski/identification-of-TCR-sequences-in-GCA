@@ -1,0 +1,10 @@
+{
+    "outfolder": "/path/to_folder/where_input_data_is_stored",
+    "infolder": "/path/to_folder/where_output_data_will_be_stored",
+    "controls": "control_tcrs.csv",
+    "GCA": "disease_tcrs.csv",
+    "to_analyze": "set_of_TCRs_to_query.csv",
+    "nr_cpus": 1,
+    "max_distance": 100,
+    "neighbors": 19
+}
