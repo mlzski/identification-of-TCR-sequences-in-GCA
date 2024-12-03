@@ -1,0 +1,14 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Weber"
+  given-names: "Anna"
+  orcid: "https://orcid.org/0000-0003-3200-8210"
+- family-names: "Zulcinski"
+  given-names: "Michal"
+  orcid: "https://orcid.org/0000-0003-4570-1882"
+title: "Package for identification and analysis of TCR sequences associated with a disease."
+version: 1.0.0
+doi: 
+date-released: 2024-12-03
+url: "https://github.com/mlzski/identification-of-TCR-sequences-in-GCA"
